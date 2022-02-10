@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Algorithms.LinkListMiddleNode;
+using System;
+using System.Collections.Generic;
 
 namespace Algorithms
 {
@@ -6,7 +8,8 @@ namespace Algorithms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            // find the middle of a link list
+            TortoiseAndHare.RunSample();
         }
     }
 }
